@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "rokyblock",
+  "version": "${version}",
+  "name": "Roky Block",
+  "description": "Adds the 'Bloque de Roky' block and the 'Pencil Block' used in its crafting recipe.",
+  "authors": [
+    "EnderDevelopment"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rokyblock/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.rokyblock.RokyBlockMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
